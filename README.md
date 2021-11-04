@@ -39,3 +39,11 @@ git pull
 [Скачать Git](https://git-scm.com/)
 ### Visual Studio Code:
 [Скачать Visual Studio Code](https://code.visualstudio.com/)
+### Subline:
+[Скачать Subline](https://www.sublimetext.com/3)
+### htmlbook:
+[Скачать htmlbook](http://htmlbook.ru/)
+
+
+# Ресурсы:
+###
