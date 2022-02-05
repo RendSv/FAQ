@@ -69,6 +69,8 @@ html, body {
     cursor: pointer;
     opacity: .5;
     transition: opacity .25s;
+    color: white;
+    text-decoration: none;
 }
 
 .Menu__link:hover {
@@ -180,8 +182,8 @@ html, body {
 }
 
 .number {
-  margin-top: 20px;
-  font-size: 20px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .adress{
@@ -202,7 +204,51 @@ html, body {
 
 }
 
+.Content__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.Form__input {
+    border: 2px solid #cbcbcb;
+    padding: 24px;
+    padding: 20px 24px;
+    font-size: 20px;
+    width: 100%;
+    margin-right: 24px;
+}
 
+.Button__form {
+    background-color: #012461;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding: 20px 24px;
+    cursor: pointer;
+}  
 
+.Table__tr {
+    padding: 24px;
+}
 
+.Table__th {
+    border: 2px solid #cbcbcb;
+    padding: 24px;
+
+}
+
+.Table {
+    width: 100%;
+    text-align: left;
+    border: 2px solid #cbcbcb;
+    border-collapse: collapse;
+}
+
+.Content__table {
+    width: 100%;
+
+}

@@ -22,7 +22,7 @@
                     <div class="Header__menu">
                         <a class="Menu__link">Информация</a>
                         <a class="Menu__link">Список</a>
-                        <a class="Menu__link">Таблица</a>
+                        <a class="Menu__link" href= #Table>Таблица</a>
                         <a class="Menu__link">Форма</a>
                         <a class="Menu__link">Карта</a>
                     </div>
@@ -117,12 +117,36 @@
                 </div>
             </div>
         </div>
-        <div class="Landing__section">
+        <div class="Landing__section" id="Table">
             <div class="Section">
                 <div class="Section__title">
                     Таблица
                 </div>
-                ...
+                <div class="Section__content">
+                    <div class="Content__table">
+                        <table class="Table">
+                            <thead>
+                                <tr class="Table__tr">
+                                    <th class="Table__th">Заголовок 1</th>
+                                    <th class="Table__th" colspan="2">Заголовок 2</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr class="Table__tr">
+                                    <td class="Table__th">Информация 1</td>
+                                    <td class="Table__th">Информация 2</td>
+                                    <td class="Table__th">Информация 3</td>
+                                </tr>
+                                <tr class="Table__tr">
+                                    <td class="Table__th">Информация 1</td>
+                                    <td class="Table__th">Информация 2</td>
+                                    <td class="Table__th">Информация 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="Landing__section">
@@ -130,7 +154,13 @@
                 <div class="Section__title">
                     Форма
                 </div>
-                ...
+                
+                <form class="Content__form">
+                    <input class="Form__input" type="text" placeholder="Поле 1"/>
+                    <input class="Form__input" type="text" placeholder="Поле 2"/>
+                    <button class="Button__form">Кнопка</button>
+                </form>
+                
             </div>
         </div>
         <div class="Landing__section">
